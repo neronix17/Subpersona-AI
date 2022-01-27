@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<O21Toolbox.SlotLoadable.SlotLoadableDef>
+		<defName>O21_AI_ProgramCartridgeSlot</defName>
+		<thingClass>O21Toolbox.SlotLoadable.SlotLoadable</thingClass>
+		<label>Program Cartridge</label>
+		<description>Slot for inserting a program cartridge.</description>
+		<slottableThingDefs>
+			<li>O21_AI_ProgramMilitary</li>
+			<li>O21_AI_ProgramMedical</li>
+			<li>O21_AI_ProgramFarming</li>
+			<li>O21_AI_ProgramMining</li>
+			<li>O21_AI_ProgramConstruction</li>
+			<li>O21_AI_ProgramScience</li>
+			<li>O21_AI_ProgramRanching</li>
+			<li>O21_AI_ProgramCooking</li>
+			<li>O21_AI_ProgramCrafting</li>
+		</slottableThingDefs>
+		<doesChangeGraphic>false</doesChangeGraphic>
+		<doesChangeColor>false</doesChangeColor>
+		<doesChangeStats>false</doesChangeStats>
+		<!-- UseHitPoints has to be disabled otherwise it will show a nonsensical % value. -->
+		<useHitPoints>False</useHitPoints>
+	</O21Toolbox.SlotLoadable.SlotLoadableDef>
+
+</Defs>

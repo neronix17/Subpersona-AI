@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>O21_AI_ShutDown</defName>
+		<label>shut down and disassemble</label>
+		<description>Shuts down a shell and disassembles for materials.</description>
+		<workerClass>O21Toolbox.ArtificialPawn.Recipe_Disassemble</workerClass>
+		<jobString>Shutting down droid and disassembling.</jobString>
+		<soundWorking>Interact_Repair</soundWorking>
+		<workAmount>1600</workAmount>
+		<targetsBodyPart>false</targetsBodyPart>
+		<effectWorking>Repair</effectWorking>
+		<isViolation>true</isViolation>
+		<anesthetize>false</anesthetize>
+		<surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+	</RecipeDef>
+	
+</Defs>

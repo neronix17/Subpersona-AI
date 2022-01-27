@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<HediffGiverSetDef>
+		<defName>O21_AI_SubpersonaAI</defName>
+		<hediffGivers>
+			<li Class="O21Toolbox.HediffGiver_Racial">
+				<hediff>O21_AI_SubpersonaAISoftware</hediff>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+
+	<HediffDef>
+		<defName>O21_AI_SubpersonaAISoftware</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>subpersona ai</label>
+		<description>This construct is run by a subpersona ai.</description>
+		<defaultLabelColor>(0.6,0.85,0.91)</defaultLabelColor>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<disablesNeeds>
+			<li>Mood</li>
+			<li>Joy</li>
+			<li>Beauty</li>
+			<li>Comfort</li>
+			<li>Outdoors</li>
+			<li>Indoors</li>
+			<li>DrugDesire</li>
+			<li>RoomSize</li>
+		</disablesNeeds>
+		<stages>
+			<li>
+				<capMods />
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

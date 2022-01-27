@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>O21_GatherProgramItem</defName>
+    <driverClass>SubpersonaAI.JobDriver_GatherProgramItem</driverClass>
+    <reportString>equipping TargetA.</reportString>
+  </JobDef>
+  
+</Defs>

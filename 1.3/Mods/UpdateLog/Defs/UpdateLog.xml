@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<O21Toolbox.UpdateListings.UpdateDef>
+		<defName>O21_AI_20220126</defName>
+		<date>2022/01/26</date>
+		<banner></banner>
+		<content>Version 1.0.0
+Initial Release
+
+Features
+- Subpersona AI Shells
+- Supbersona AI Cores
+- Subpersona Programs (Medical, Military, Research, Farming, Construction and Mining)
+- Shell Reconstructor</content>
+		<linkUrl>https://outpost-21.fandom.com/wiki/Subpersona_AI</linkUrl>
+		<important>false</important>
+	</O21Toolbox.UpdateListings.UpdateDef>
+
+</Defs>

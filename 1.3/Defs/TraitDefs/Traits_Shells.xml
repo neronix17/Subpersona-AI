@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraitDef Name="O21_AI_ShellTraitBase" Abstract="True">
+		<modExtensions>
+			<li Class="SubpersonaAI.DefModExt_ShellTrait"></li>
+		</modExtensions>
+	</TraitDef>
+
+	<TraitDef ParentName="O21_AI_ShellTraitBase">
+		<defName>O21_AI_ShellStandard</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>shell: standard</label>
+				<description>{PAWN_nameDef} is a standard model of Subpersona Shell. They have no program installed so are incapable of most tasks.</description>
+			</li>
+		</degreeDatas>
+		<disabledWorkTags>
+			<li>Violent</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Cooking</li>
+			<li>Constructing</li>
+			<li>PlantWork</li>
+			<li>Mining</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</disabledWorkTags>
+	</TraitDef>
+
+	<TraitDef ParentName="O21_AI_ShellTraitBase">
+		<defName>O21_AI_ShellMilitary</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>shell: military</label>
+				<description>{PAWN_nameDef} has a military program cartridge installed, meaning they can perform combat related tasks on top of their basic programming.</description>
+			</li>
+		</degreeDatas>
+		<disabledWorkTags>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Cooking</li>
+			<li>Constructing</li>
+			<li>PlantWork</li>
+			<li>Mining</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</disabledWorkTags>
+	</TraitDef>
+
+	<TraitDef ParentName="O21_AI_ShellTraitBase">
+		<defName>O21_AI_ShellMedical</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>shell: medical</label>
+				<description>{PAWN_nameDef} has a medical program cartridge installed, meaning they can perform medical tasks on top of their basic programming.</description>
+			</li>
+		</degreeDatas>
+		<disabledWorkTags>
+			<li>Violent</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Cooking</li>
+			<li>Constructing</li>
+			<li>PlantWork</li>
+			<li>Mining</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</disabledWorkTags>
+	</TraitDef>
+
+	<TraitDef ParentName="O21_AI_ShellTraitBase">
+		<defName>O21_AI_ShellFarming</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>shell: farming</label>
+				<description>{PAWN_nameDef} has a farming program cartridge installed, meaning they can perform farming tasks such as plant cutting or tree chopping on top of their basic programming.</description>
+			</li>
+		</degreeDatas>
+		<disabledWorkTags>
+			<li>Violent</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Cooking</li>
+			<li>Constructing</li>
+			<li>Mining</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</disabledWorkTags>
+	</TraitDef>
+
+	<TraitDef ParentName="O21_AI_ShellTraitBase">
+		<defName>O21_AI_ShellScience</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>shell: science</label>
+				<description>{PAWN_nameDef} has a science program cartridge installed, meaning they can perform research tasks on top of their basic programming.</description>
+			</li>
+		</degreeDatas>
+		<disabledWorkTags>
+			<li>Violent</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Cooking</li>
+			<li>Constructing</li>
+			<li>PlantWork</li>
+			<li>Mining</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+		</disabledWorkTags>
+	</TraitDef>
+
+	<TraitDef ParentName="O21_AI_ShellTraitBase">
+		<defName>O21_AI_ShellConstruction</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>shell: construction</label>
+				<description>{PAWN_nameDef} has a consturction program cartridge installed, meaning they can perform construction and related tasks on top of their basic programming.</description>
+			</li>
+		</degreeDatas>
+		<disabledWorkTags>
+			<li>Violent</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Cooking</li>
+			<li>PlantWork</li>
+			<li>Mining</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</disabledWorkTags>
+	</TraitDef>
+
+	<TraitDef ParentName="O21_AI_ShellTraitBase">
+		<defName>O21_AI_ShellMining</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>shell: mining</label>
+				<description>{PAWN_nameDef} has a mining program cartridge installed, meaning they can perform mining tasks on top of their basic programming.</description>
+			</li>
+		</degreeDatas>
+		<disabledWorkTags>
+			<li>Violent</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Cooking</li>
+			<li>Constructing</li>
+			<li>PlantWork</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</disabledWorkTags>
+	</TraitDef>
+
+	<TraitDef ParentName="O21_AI_ShellTraitBase">
+		<defName>O21_AI_ShellCooking</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>shell: cooking</label>
+				<description>{PAWN_nameDef} has a cooking program cartridge installed, meaning they can perform cooking tasks on top of their basic programming.</description>
+			</li>
+		</degreeDatas>
+		<disabledWorkTags>
+			<li>Violent</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Constructing</li>
+			<li>PlantWork</li>
+			<li>Mining</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</disabledWorkTags>
+	</TraitDef>
+
+	<TraitDef ParentName="O21_AI_ShellTraitBase">
+		<defName>O21_AI_ShellCrafting</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>shell: crafting</label>
+				<description>{PAWN_nameDef} has a crafting program cartridge installed, meaning they can perform crafting tasks on top of their basic programming.</description>
+			</li>
+		</degreeDatas>
+		<disabledWorkTags>
+			<li>Violent</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Cooking</li>
+			<li>Constructing</li>
+			<li>PlantWork</li>
+			<li>Mining</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</disabledWorkTags>
+	</TraitDef>
+
+	<TraitDef ParentName="O21_AI_ShellTraitBase">
+		<defName>O21_AI_ShellRanching</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>shell: ranching</label>
+				<description>{PAWN_nameDef} has a ranching program cartridge installed, meaning they can perform ranching tasks on top of their basic programming.</description>
+			</li>
+		</degreeDatas>
+		<disabledWorkTags>
+			<li>Violent</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Cooking</li>
+			<li>Constructing</li>
+			<li>PlantWork</li>
+			<li>Mining</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</disabledWorkTags>
+	</TraitDef>
+
+</Defs>

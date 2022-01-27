@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[O21] Subpersona Shells</name>
+	<author>Neronix17</author>
+	<packageId>Neronix17.SubpersonaShells</packageId>
+	<url></url>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<description>Adds Subpersona AI Shells, robots designed to fit a number of purposes but with limited capacity for what they can process, using program cartridges to dictate what they are capable of.</description>
+</ModMetaData>

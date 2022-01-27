@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+		<defName>O21_AI_SubpersonaShell</defName>
+		<label>Subpersona Shell</label>
+		<description>A simple spacer design of humanoid robot, Shells are commonly used among spacer colonies to reinforce workers cheaply, using program cartridges they can be enabled to complete specific sets of complex tasks beyond their basic built-in programming.</description>
+		<alienRace>
+			<generalSettings>
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>1.0</maleGenderProbability>
+				<immuneToAge>true</immuneToAge>
+				<humanRecipeImport>false</humanRecipeImport>
+				<traitCount>0</traitCount>
+				<immuneToXenophobia>true</immuneToXenophobia>
+				<minAgeForAdulthood>3</minAgeForAdulthood>
+				<alienPartGenerator>
+					<useGenderedHeads>False</useGenderedHeads>
+					<aliencrowntypes>
+						<li>Normal</li>
+					</aliencrowntypes>
+					<alienbodytypes>
+						<li>Male</li>
+					</alienbodytypes>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>20</weight>
+										<only>RGB(255, 255, 255)</only>
+									</li>
+								</options>
+							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>20</weight>
+										<only>RGB(255, 255, 255)</only>
+									</li>
+								</options>
+							</second>
+						</li>
+					</colorChannels>
+				</alienPartGenerator>
+			</generalSettings>
+			<graphicPaths>
+				<li>
+					<head>SubpersonaAI/Shell/Head/</head>
+					<body>SubpersonaAI/Shell/Body/</body>
+				</li>
+			</graphicPaths>
+			<styleSettings>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+			<relationSettings>
+				<relationChanceModifierChild>0</relationChanceModifierChild>
+				<relationChanceModifierExLover>0</relationChanceModifierExLover>
+				<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+				<relationChanceModifierFiance>0</relationChanceModifierFiance>
+				<relationChanceModifierLover>0</relationChanceModifierLover>
+				<relationChanceModifierParent>0</relationChanceModifierParent>
+				<relationChanceModifierSibling>0</relationChanceModifierSibling>
+				<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			</relationSettings>
+			<thoughtSettings>
+				<cannotReceiveThoughtsAtAll>True</cannotReceiveThoughtsAtAll>
+				<butcherThoughtGeneral>
+					<thought>O21_NullThought</thought>
+					<knowThought>O21_NullThought</knowThought>
+				</butcherThoughtGeneral>
+			</thoughtSettings>
+			<raceRestriction>
+				<foodList>
+					<li MayRequire="neronix17.outerrim.galaxies">O21_OR_DroidBattery_Full</li>
+				</foodList>
+				<onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+				<apparelList />
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+			</raceRestriction>
+			<compatibility>
+				<isFlesh>False</isFlesh>
+				<isSentient>False</isSentient>
+				<hasBlood>False</hasBlood>
+			</compatibility>
+		</alienRace>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<MoveSpeed>4.8</MoveSpeed>
+			<Flammability>0.1</Flammability>
+			<ComfyTemperatureMin>-250</ComfyTemperatureMin>
+			<ComfyTemperatureMax>250</ComfyTemperatureMax>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			<PsychicSensitivity>0.0</PsychicSensitivity>
+			<ToxicSensitivity>0.0</ToxicSensitivity>
+			<ImmunityGainSpeed>100</ImmunityGainSpeed>
+			<PainShockThreshold>10</PainShockThreshold>
+		</statBases>
+		<race>
+			<nameGenerator>O21_OR_NamerBattleDroid</nameGenerator>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<fleshType>Artificial</fleshType>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>2500</lifeExpectancy>
+			<leatherDef>Leather_Human</leatherDef>
+			<bloodDef>O21_AI_ShellOil</bloodDef>
+			<body>O21_AI_HumanoidShell</body>
+			<useMeatFrom>Human</useMeatFrom>
+			<foodType>OmnivoreHuman</foodType>
+			<needsRest>false</needsRest>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>AdultHumanoidShellStage</def>
+					<minAge>0</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(0,0)</li>
+					<li>(1,100)</li>
+					<li>(2,100)</li>
+					<li>(4,30)</li>
+					<li>(20,18)</li>
+					<li>(60,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>O21_AI_SubpersonaAI</li>
+				<li>O21_ConstructHumanoid</li>
+			</hediffGiverSets>
+		</race>
+		<recipes>
+			<!-- Important Utility -->
+			<li>O21_AI_ShutDown</li>
+		</recipes>
+		<comps>
+			<li Class="O21Toolbox.SlotLoadable.CompProperties_SlotLoadable">
+				<compClass>SubpersonaAI.Comp_ProgramCartridgeSlot</compClass>
+				<slots>
+					<li>O21_AI_ProgramCartridgeSlot</li>
+				</slots>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="O21Toolbox.Hibernation.DefModExt_Hibernation">
+				<canHibernate>true</canHibernate>
+				<hibernationJob>O21Hibernate</hibernationJob>
+			</li>
+			<li Class="O21Toolbox.SimpleNeeds.DefModExt_FoodNeedAdjuster">
+				<newLabel>Energy</newLabel>
+				<disableFoodNeed>False</disableFoodNeed>
+				<malnutritionReplacer>O21_LowEnergy</malnutritionReplacer>
+			</li>
+			<li Class="O21Toolbox.Needs.DefModExt_ArtificialPawn">
+				<noSkillLoss>True</noSkillLoss>
+				<canSocialize>False</canSocialize>
+				<colonyCaresIfDead>False</colonyCaresIfDead>
+				<tweakCorpseRot>True</tweakCorpseRot>
+				<corpseEdible>False</corpseEdible>
+				<affectedByEMP>True</affectedByEMP>
+				<canBeRepaired>False</canBeRepaired>
+				<needJoy>False</needJoy>
+				<needComfort>False</needComfort>
+				<needRoomSize>False</needRoomSize>
+				<needOutdoors>False</needOutdoors>
+				<needBeauty>False</needBeauty>
+			</li>
+			<li Class="O21Toolbox.HarmonyPatches.DefModExt_SpaceCapable" />
+		</modExtensions>
+		<butcherProducts>
+			<Steel>120</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</butcherProducts>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

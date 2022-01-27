@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>O21_AI_SubpersonaShell_Child</defName>
+		<title>Subpersona Shell</title>
+		<titleShort>Subpersona Shell</titleShort>
+		<baseDescription>Simple robotic shell.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>SubpersonaShellBackstory</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>O21_AI_SubpersonaShell_Adult</defName>
+		<title>Subpersona Shell</title>
+		<titleShort>Subpersona Shell</titleShort>
+		<baseDescription>Nothing Special.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>SubpersonaShellBackstory</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+</Defs>

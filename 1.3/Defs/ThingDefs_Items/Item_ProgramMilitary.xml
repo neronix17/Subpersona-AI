@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>O21_AI_ProgramMilitary</defName>
+		<label>program cartridge: military</label>
+		<description>Cartridge designed for use in subpersona shells, contains a program which allows the shell to perform military related actions.</description>
+		<graphicData>
+			<texPath>SubpersonaAI/ShellPrograms/Program_Military</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>10</stackLimit>
+		<healthAffectsPrice>true</healthAffectsPrice>
+		<intricate>true</intricate>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>1000</MarketValue>
+			<Mass>0.8</Mass>
+			<Flammability>0.3</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="SubpersonaAI.DefModExt_ProgramCartridge">
+				<skills>
+					<li>Shooting</li>
+					<li>Melee</li>
+				</skills>
+				<trait>O21_AI_ShellMilitary</trait>
+			</li>
+		</modExtensions>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ShellPrograms</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+</Defs>
