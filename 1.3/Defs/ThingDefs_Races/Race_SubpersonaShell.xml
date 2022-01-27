@@ -163,6 +163,7 @@
 			<PainShockThreshold>10</PainShockThreshold>
 		</statBases>
 		<race>
+			<hasGender>False</hasGender>
 			<nameGenerator>O21_OR_NamerBattleDroid</nameGenerator>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>1</baseHealthScale>
