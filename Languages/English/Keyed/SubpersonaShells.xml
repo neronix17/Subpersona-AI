@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<SubAI_CarryToSubpersonaReconstructor>Carry {1_label} to subpersona reconstructor</SubAI_CarryToSubpersonaReconstructor>
+	<SubAI_CannotCarryToSubpersonaReconstructor>Cannot carry to subpersona reconstructor</SubAI_CannotCarryToSubpersonaReconstructor>
+	<SubAI_NoSubpersonaReconstructor>No available subpersona reconstructor.</SubAI_NoSubpersonaReconstructor>
+	<SubAI_SubpersonaReconstructorGuestsNotAllowed>Temporary faction members not allowed.</SubAI_SubpersonaReconstructorGuestsNotAllowed>
+	<SubAI_SubpersonaReconstructorGuestPrisonersNotAllowed>Hosted prisoners not allowed.</SubAI_SubpersonaReconstructorGuestPrisonersNotAllowed>
+	<SubAI_SubpersonaReconstructorOccupied>Already occupied</SubAI_SubpersonaReconstructorOccupied>
+	<SubAI_ReconstructorShellsOnly>Can only be used by Subpersona Shells</SubAI_ReconstructorShellsOnly>
+	<SubAI_EnterSubpersonaReconstructor>Enter subpersona reconstructor</SubAI_EnterSubpersonaReconstructor>
+	<SubAI_OpenSubpersonaReconstructor>Open subpersona reconstructor</SubAI_OpenSubpersonaReconstructor>
+
+</LanguageData>

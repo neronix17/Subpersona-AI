@@ -20,7 +20,11 @@ namespace SubpersonaAI
         public static TraitDef O21_AI_ShellStandard;
 
         public static JobDef O21_GatherProgramItem;
+        public static JobDef O21_AI_EnterReconstructor;
+        public static JobDef O21_AI_CarryToReconstructor;
 
         public static ThingDef O21_AI_SubpersonaShell;
+
+        public static SoundDef O21_AI_OvenDing;
     }
 }

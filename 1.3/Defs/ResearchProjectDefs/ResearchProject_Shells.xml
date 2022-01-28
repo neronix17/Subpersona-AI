@@ -8,14 +8,14 @@
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
-			<li>AdvancedFabrication</li>
+			<li>Fabrication</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
-		<researchViewX>18.00</researchViewX>
-		<researchViewY>3.50</researchViewY>
+		<researchViewX>15.00</researchViewX>
+		<researchViewY>2.50</researchViewY>
 		<discoveredLetterTitle>About: Creating Subpersona Shells</discoveredLetterTitle>
 		<discoveredLetterText>Now you have the research done, you have the ability to begin crafting your very own Shell workforce! You can find the recipe on the fabricator which will create the standard shell, these are not capable of anything beyond the simplest tasks without a program cartridge though, which can also be crafted on the fabricator. The quality of the cartridge determines the skill levels provided to the Shell when they equip it.</discoveredLetterText>
 	</ResearchProjectDef>

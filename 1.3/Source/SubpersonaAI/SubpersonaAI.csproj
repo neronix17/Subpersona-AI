@@ -62,10 +62,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Building_SubpersonaReconstructor.cs" />
     <Compile Include="Comp_ProgramCartridgeSlot.cs" />
     <Compile Include="DefModExt_ProgramCartridge.cs" />
     <Compile Include="DefModExt_ShellTrait.cs" />
+    <Compile Include="FloatMenu_ReconstructorCarry.cs" />
     <Compile Include="FloatMenu_ShellCartridge.cs" />
+    <Compile Include="JobDriver_CarryToReconstructor.cs" />
+    <Compile Include="JobDriver_EnterReconstructor.cs" />
     <Compile Include="JobDriver_GatherProgramItem.cs" />
     <Compile Include="Patch_PawnGenerator_GeneratePawn.cs" />
     <Compile Include="Patch_SkillRecord_Learn.cs" />
