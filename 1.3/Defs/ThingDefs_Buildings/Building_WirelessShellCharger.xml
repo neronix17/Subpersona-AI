@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SubAI_SubersonaCharger</defName>
+		<label>wireless shell charger</label>
+		<description>A wireless energy transmitter for charging Subpersona Shells in an area. Keeps any shells in range fully charged in periodical bursts.</description>
+		<graphicData>
+			<texPath>SubpersonaAI/AreaTransmitter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.25, 2.25)</drawSize>
+		</graphicData>
+		<tickerType>Long</tickerType>
+		<size>(1,1)</size>
+		<uiIconScale>0.3</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>180</pathCost>
+		<blockWind>true</blockWind>
+		<fillPercent>0.5</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<designationCategory>Power</designationCategory>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<costList>
+			<Steel>80</Steel>
+			<Plasteel>30</Plasteel>
+			<Uranium>5</Uranium>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<researchPrerequisites>
+			<li>SubAI_SubpersonaShell</li>
+		</researchPrerequisites>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>500</basePowerConsumption>
+			</li>
+			<li Class="O21Toolbox.SimpleNeeds.CompProperties_WirelessCharger">
+				<chargingRadius>16</chargingRadius>
+			</li>
+		</comps>
+		<specialDisplayRadius>16</specialDisplayRadius>
+	</ThingDef>
+
+</Defs>

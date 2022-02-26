@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="SubAI_ProgramCartridgeBase">
-		<defName>O21_AI_ProgramMedical</defName>
+		<defName>SubAI_ProgramMedical</defName>
 		<label>program cartridge: medical</label>
 		<description>Cartridge designed for use in subpersona shells, contains a program which allows the shell to perform medical related actions.</description>
 		<graphicData>
@@ -13,7 +13,7 @@
 				<skills>
 					<li>Medicine</li>
 				</skills>
-				<trait>O21_AI_ShellMedical</trait>
+				<trait>SubAI_ShellMedical</trait>
 			</li>
 		</modExtensions>
 	</ThingDef>

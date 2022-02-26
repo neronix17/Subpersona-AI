@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>SubAI_ShellFabricator</defName>
+		<label>work at shell fabricator</label>
+		<giverClass>O21Toolbox.AutomatedProducer.WorkGiver_AutomatedProducer</giverClass>
+		<workType>Hauling</workType>
+		<verb>fill</verb>
+		<gerund>filling</gerund>
+		<priorityInType>60</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+		<modExtensions>
+			<li Class="O21Toolbox.AutomatedProducer.WorkGiver_Properties_AutomatedProducer">
+				<defToScan>SubAI_SubpersonaFabricator</defToScan>
+				<fillJob>O21_FillAutomatedProducer</fillJob>
+			</li>
+		</modExtensions>
+	</WorkGiverDef>
+
+</Defs>

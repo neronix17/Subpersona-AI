@@ -3,7 +3,7 @@
 <Defs>
 
 	<SoundDef>
-		<defName>O21_AI_OvenDing</defName>	
+		<defName>SubAI_OvenDing</defName>	
 		<eventNames />	
 		<maxVoices>1</maxVoices> 
 		<maxSimultaneous>1</maxSimultaneous>	

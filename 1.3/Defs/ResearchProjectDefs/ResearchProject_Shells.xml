@@ -2,7 +2,7 @@
 <Defs>
 
 	<ResearchProjectDef>
-		<defName>O21_AI_SubpersonaShell</defName>
+		<defName>SubAI_SubpersonaShell</defName>
 		<label>subpersona shell</label>
 		<description>Create a subpersona AI powered shell, a humanoid robot capable of most jobs when given the right program.</description>
 		<baseCost>4000</baseCost>

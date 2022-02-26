@@ -2,14 +2,14 @@
 <Defs>
 
 	<JobDef>
-	  <defName>O21_AI_EnterReconstructor</defName>
+	  <defName>SubAI_EnterReconstructor</defName>
 	  <driverClass>SubPersonaAI.JobDriver_EnterReconstructor</driverClass>
 	  <reportString>entering subpersona reconstructor.</reportString>
 	  <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
 
 	<JobDef>
-	  <defName>O21_AI_CarryToReconstructor</defName>
+	  <defName>SubAI_CarryToReconstructor</defName>
 	  <driverClass>SubPersonaAI.JobDriver_CarryToReconstructor</driverClass>
 	  <reportString>carrying TargetA to subpersona reconstructor.</reportString>
 	  <casualInterruptible>false</casualInterruptible>

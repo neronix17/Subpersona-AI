@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="SubAI_ProgramCartridgeBase">
-		<defName>O21_AI_ProgramMilitary</defName>
+		<defName>SubAI_ProgramMilitary</defName>
 		<label>program cartridge: military</label>
 		<description>Cartridge designed for use in subpersona shells, contains a program which allows the shell to perform military related actions.</description>
 		<graphicData>
@@ -14,7 +14,7 @@
 					<li>Shooting</li>
 					<li>Melee</li>
 				</skills>
-				<trait>O21_AI_ShellMilitary</trait>
+				<trait>SubAI_ShellMilitary</trait>
 			</li>
 		</modExtensions>
 	</ThingDef>

@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>O21_AI_SubpersonaReconstructor</defName>
+		<defName>SubAI_SubpersonaReconstructor</defName>
 		<label>subpersona reconstructor</label>
 		<description>A self-powered pod which uses steel to repair Subpersona Shells, even from almost complete destruction, as long as a corpse remains it can fully restore them good as new.</description>
 		<thingClass>SubpersonaAI.Building_SubpersonaReconstructor</thingClass>
@@ -36,7 +36,7 @@
 			<fixedStorageSettings>
 				<filter>
 					<thingDefs>
-						<li>Corpse_O21_AI_SubpersonaShell</li>
+						<li>Corpse_SubAI_SubpersonaShell</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -44,7 +44,7 @@
 				<priority>Important</priority>
 				<filter>
 					<thingDefs>
-						<li>Corpse_O21_AI_SubpersonaShell</li>
+						<li>Corpse_SubAI_SubpersonaShell</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
@@ -68,7 +68,7 @@
 			<li>ITab_ContentsCasket</li>
 		</inspectorTabs>
 		<researchPrerequisites>
-			<li>O21_AI_SubpersonaShell</li>
+			<li>SubAI_SubpersonaShell</li>
 		</researchPrerequisites>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>

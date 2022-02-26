@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="TableMachining"]/recipes</xpath>
+		<value>
+			<li>SubAI_ChargeEnergyPacks</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="FabricationBench"]/recipes</xpath>
+		<value>
+			<li>SubAI_ChargeEnergyPacks</li>
+		</value>
+	</Operation>
+
+</Patch>

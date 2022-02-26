@@ -2,16 +2,16 @@
 <Defs>
 	
 	<HediffGiverSetDef>
-		<defName>O21_AI_SubpersonaAI</defName>
+		<defName>SubAI_SubpersonaAI</defName>
 		<hediffGivers>
 			<li Class="O21Toolbox.HediffGiver_Racial">
-				<hediff>O21_AI_SubpersonaAISoftware</hediff>
+				<hediff>SubAI_SubpersonaAISoftware</hediff>
 			</li>
 		</hediffGivers>
 	</HediffGiverSetDef>
 
 	<HediffDef>
-		<defName>O21_AI_SubpersonaAISoftware</defName>
+		<defName>SubAI_SubpersonaAISoftware</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>subpersona ai</label>
 		<description>This construct is run by a subpersona ai.</description>

@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="SubAI_ProgramCartridgeBase">
-		<defName>O21_AI_ProgramMining</defName>
+		<defName>SubAI_ProgramMining</defName>
 		<label>program cartridge: mining</label>
 		<description>Cartridge designed for use in subpersona shells, contains a program which allows the shell to perform mining related actions.</description>
 		<graphicData>
@@ -13,7 +13,7 @@
 				<skills>
 					<li>Mining</li>
 				</skills>
-				<trait>O21_AI_ShellMining</trait>
+				<trait>SubAI_ShellMining</trait>
 			</li>
 		</modExtensions>
 	</ThingDef>

@@ -17,14 +17,14 @@ namespace SubpersonaAI
             DefOfHelper.EnsureInitializedInCtor(typeof(SubpersonaDefOf));
         }
 
-        public static TraitDef O21_AI_ShellStandard;
+        public static TraitDef SubAI_ShellStandard;
 
         public static JobDef O21_GatherProgramItem;
-        public static JobDef O21_AI_EnterReconstructor;
-        public static JobDef O21_AI_CarryToReconstructor;
+        public static JobDef SubAI_EnterReconstructor;
+        public static JobDef SubAI_CarryToReconstructor;
 
-        public static ThingDef O21_AI_SubpersonaShell;
+        public static ThingDef SubAI_SubpersonaShell;
 
-        public static SoundDef O21_AI_OvenDing;
+        public static SoundDef SubAI_OvenDing;
     }
 }

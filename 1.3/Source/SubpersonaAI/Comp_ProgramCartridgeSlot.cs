@@ -179,7 +179,7 @@ namespace SubpersonaAI
             {
                 pawn.story.traits.RemoveTrait(pawn.story.traits.allTraits[i]);
             }
-            pawn.story.traits.GainTrait(new Trait(SubpersonaDefOf.O21_AI_ShellStandard));
+            pawn.story.traits.GainTrait(new Trait(SubpersonaDefOf.SubAI_ShellStandard));
         }
 
         public void ResetSkills()

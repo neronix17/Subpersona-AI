@@ -35,7 +35,7 @@ namespace SubpersonaAI
 						continue;
 					}
 					string text2 = "SubAI_CarryToSubpersonaReconstructor".Translate(localTargetInfo.Thing.LabelCap, localTargetInfo.Thing);
-					JobDef jDef = SubpersonaDefOf.O21_AI_CarryToReconstructor;
+					JobDef jDef = SubpersonaDefOf.SubAI_CarryToReconstructor;
 					Action action2 = delegate
 					{
 						Building_SubpersonaReconstructor building_CryptosleepCasket = Building_SubpersonaReconstructor.FindReconstructorFor(victim, pawn);

@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="BaseFilth">
-		<defName>O21_AI_ShellOil</defName>
+		<defName>SubAI_ShellOil</defName>
 		<label>shell oil</label>
 		<statBases>
 			<Beauty>-30</Beauty>

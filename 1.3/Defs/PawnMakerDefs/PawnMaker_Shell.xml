@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef>
-		<defName>O21_AI_ShellPawnMaker</defName>
+		<defName>SubAI_ShellPawnMaker</defName>
 		<label>subpersona shell</label>
 		<description>Creates a subpersona shell.</description>
 		<thingClass>Building</thingClass>
@@ -20,7 +20,7 @@
 
 		<comps>
 			<li Class="O21Toolbox.CompProperties_PawnSpawner">
-				<pawnKind>O21_AI_CraftedSubpersonaShell</pawnKind>
+				<pawnKind>SubAI_CraftedSubpersonaShell</pawnKind>
 				<newborn>True</newborn>
 				<canGeneratePawnRelations>False</canGeneratePawnRelations>
 			</li>
@@ -44,59 +44,32 @@
 		<tickerType>Normal</tickerType>
 	</ThingDef>
 
-	<RecipeDef>
-		<defName>O21_AI_CreateSubpersonaShell</defName>
+	<O21Toolbox.AutomatedProducer.RecipeDef_Automated>
+		<defName>SubAI_CreateSubpersonaShell</defName>
 		<label>create subpersona shell</label>
 		<description>Create a subpersona shell.</description>
-		<jobString>Building a better bot.</jobString>
-		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<workSkill>Crafting</workSkill>
-		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>2400</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>240</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>60</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentSpacer</li>
-					</thingDefs>
-				</filter>
-				<count>8</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-				<li>Plasteel</li>
-				<li>ComponentSpacer</li>
-			</thingDefs>
-		</fixedIngredientFilter>
+		<randomTickCost>false</randomTickCost>
+		<baseTickCost>60000</baseTickCost>
+		<costs>
+			<Steel>240</Steel>
+			<Plasteel>60</Plasteel>
+			<ComponentSpacer>8</ComponentSpacer>
+		</costs>
 		<products>
-			<O21_AI_ShellPawnMaker>1</O21_AI_ShellPawnMaker>
+			<SubAI_ShellPawnMaker>1</SubAI_ShellPawnMaker>
 		</products>
-		<researchPrerequisite>O21_AI_SubpersonaShell</researchPrerequisite>
-	</RecipeDef>
+		<requiredResearch>SubAI_SubpersonaShell</requiredResearch>
+		<recipeInfo>
+			<recipeType>Shell Fabrication</recipeType>
+			<recipeIcon>SubpersonaAI/Shell/Preview</recipeIcon>
+			<productionString>Fabricating: </productionString>
+		</recipeInfo>
+	</O21Toolbox.AutomatedProducer.RecipeDef_Automated>
 
 	<PawnKindDef>
-		<defName>O21_AI_CraftedSubpersonaShell</defName>
+		<defName>SubAI_CraftedSubpersonaShell</defName>
 		<label>subpersona shell</label>
-		<race>O21_AI_SubpersonaShell</race>
+		<race>SubAI_SubpersonaShell</race>
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
 		<isFighter>false</isFighter>

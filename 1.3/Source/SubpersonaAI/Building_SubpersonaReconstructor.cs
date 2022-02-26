@@ -55,7 +55,7 @@ namespace SubpersonaAI
 			{
 				return false;
 			}
-			if(!(thing.def == SubpersonaDefOf.O21_AI_SubpersonaShell || (thing as Corpse != null && (thing as Corpse).InnerPawn.def == SubpersonaDefOf.O21_AI_SubpersonaShell)))
+			if(!(thing.def == SubpersonaDefOf.SubAI_SubpersonaShell || (thing as Corpse != null && (thing as Corpse).InnerPawn.def == SubpersonaDefOf.SubAI_SubpersonaShell)))
             {
 				return false;
             }
@@ -144,7 +144,7 @@ namespace SubpersonaAI
 
 			isRepairing = false;
 
-			SubpersonaDefOf.O21_AI_OvenDing.PlayOneShot(SoundInfo.InMap(this));
+			SubpersonaDefOf.SubAI_OvenDing.PlayOneShot(SoundInfo.InMap(this));
 
 			EjectContents();
         }
@@ -170,7 +170,7 @@ namespace SubpersonaAI
 
 		public override IEnumerable<FloatMenuOption> GetFloatMenuOptions(Pawn myPawn)
 		{
-			if(myPawn.def != SubpersonaDefOf.O21_AI_SubpersonaShell)
+			if(myPawn.def != SubpersonaDefOf.SubAI_SubpersonaShell)
 			{
 				FloatMenuOption floatMenuOption = new FloatMenuOption("CannotUseReason".Translate("SubAI_ReconstructorShellsOnly".Translate()), null);
 				yield return floatMenuOption;
@@ -195,7 +195,7 @@ namespace SubpersonaAI
 				}
 				else
 				{
-					JobDef jobDef = SubpersonaDefOf.O21_AI_EnterReconstructor;
+					JobDef jobDef = SubpersonaDefOf.SubAI_EnterReconstructor;
 					string label = "SubAI_EnterSubpersonaReconstructor".Translate();
 					Action action = delegate ()
 					{

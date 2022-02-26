@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SubAI_SubpersonaFabricator</defName>
+		<label>subpersona fabricator</label>
+		<description>An advanced fabrication vat used in the creation of subpersona shells.</description>
+		<thingClass>O21Toolbox.AutomatedProducer.Building_AutomatedProducer</thingClass>
+		<graphicData>
+			<texPath>SubpersonaAI/ShellCrafter/ShellCrafter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>false</castEdgeShadows>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>80</Plasteel>
+			<ComponentSpacer>14</ComponentSpacer>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-2</Cleanliness>
+		</statBases>
+		<size>(1,2)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(-1,0,0)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+        <inspectorTabs>
+            <li>O21Toolbox.AutomatedProducer.ITab_AutomatedProducer</li>
+        </inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>800</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="O21Toolbox.AutomatedProducer.CompProperties_AutomatedProducer">
+				<compClass>O21Toolbox.AutomatedProducer.Comp_AutomatedProducer</compClass>
+				<craftingTimeMultiplier>1.0</craftingTimeMultiplier>
+				<allowOverflow>false</allowOverflow>
+				<allowFullStack>true</allowFullStack>
+				<recipes>
+					<li>SubAI_CreateSubpersonaShell</li>
+				</recipes>
+			</li>
+			<li Class="O21Toolbox.AutomatedProducer.CompProperties_ProgressOverlay">
+				<recipeStates>
+					<li>
+						<recipeDef>SubAI_CreateSubpersonaShell</recipeDef>
+						<states>
+							<li>
+								<texPath>SubpersonaAI/ShellCrafter/Shell0</texPath>
+								<progress>0</progress>
+							</li>
+							<li>
+								<texPath>SubpersonaAI/ShellCrafter/Shell1</texPath>
+								<progress>0.25</progress>
+							</li>
+							<li>
+								<texPath>SubpersonaAI/ShellCrafter/Shell2</texPath>
+								<progress>0.5</progress>
+							</li>
+							<li>
+								<texPath>SubpersonaAI/ShellCrafter/Shell3</texPath>
+								<progress>0.75</progress>
+							</li>
+						</states>
+					</li>
+				</recipeStates>
+			</li>
+		</comps>
+		<building>
+            <spawnedConceptLearnOpportunity>O21_Concept_AutomatedProduction</spawnedConceptLearnOpportunity>
+		</building>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>SubAI_SubpersonaShell</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>

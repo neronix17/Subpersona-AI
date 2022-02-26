@@ -18,7 +18,7 @@ namespace SubpersonaAI
         public static bool Prefix(float xp, bool direct, SkillRecord __instance)
         {
             Pawn pawn = __instance?.pawn;
-            if (pawn?.def == SubpersonaDefOf.O21_AI_SubpersonaShell)
+            if (pawn?.def == SubpersonaDefOf.SubAI_SubpersonaShell)
             {
                 return false;
             }

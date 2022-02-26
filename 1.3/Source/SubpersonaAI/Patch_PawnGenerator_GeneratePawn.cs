@@ -18,13 +18,13 @@ namespace SubpersonaAI
         public static void Postfix(PawnGenerationRequest request, Pawn __result)
         {
             Pawn pawn = __result;
-            if(pawn.def == SubpersonaDefOf.O21_AI_SubpersonaShell)
+            if(pawn.def == SubpersonaDefOf.SubAI_SubpersonaShell)
             {
                 for (int i = 0; i < pawn.story.traits.allTraits.Count; i++)
                 {
                     pawn.story.traits.RemoveTrait(pawn.story.traits.allTraits[i]);
                 }
-                pawn.story.traits.GainTrait(new Trait(SubpersonaDefOf.O21_AI_ShellStandard));
+                pawn.story.traits.GainTrait(new Trait(SubpersonaDefOf.SubAI_ShellStandard));
             }
         }
     }

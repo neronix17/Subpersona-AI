@@ -2,20 +2,20 @@
 <Defs>
 
 	<O21Toolbox.SlotLoadable.SlotLoadableDef>
-		<defName>O21_AI_ProgramCartridgeSlot</defName>
+		<defName>SubAI_ProgramCartridgeSlot</defName>
 		<thingClass>O21Toolbox.SlotLoadable.SlotLoadable</thingClass>
 		<label>Program Cartridge</label>
 		<description>Slot for inserting a program cartridge.</description>
 		<slottableThingDefs>
-			<li>O21_AI_ProgramMilitary</li>
-			<li>O21_AI_ProgramMedical</li>
-			<li>O21_AI_ProgramFarming</li>
-			<li>O21_AI_ProgramMining</li>
-			<li>O21_AI_ProgramConstruction</li>
-			<li>O21_AI_ProgramScience</li>
-			<li>O21_AI_ProgramRanching</li>
-			<li>O21_AI_ProgramCooking</li>
-			<li>O21_AI_ProgramCrafting</li>
+			<li>SubAI_ProgramMilitary</li>
+			<li>SubAI_ProgramMedical</li>
+			<li>SubAI_ProgramFarming</li>
+			<li>SubAI_ProgramMining</li>
+			<li>SubAI_ProgramConstruction</li>
+			<li>SubAI_ProgramScience</li>
+			<li>SubAI_ProgramRanching</li>
+			<li>SubAI_ProgramCooking</li>
+			<li>SubAI_ProgramCrafting</li>
 		</slottableThingDefs>
 		<doesChangeGraphic>false</doesChangeGraphic>
 		<doesChangeColor>false</doesChangeColor>

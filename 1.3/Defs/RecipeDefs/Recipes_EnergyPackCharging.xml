@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>SubAI_ChargeEnergyPacks</defName>
+		<label>charge energy packs x10</label>
+		<description>Charge 10 energy packs.</description>
+		<jobString>Charging energy packs.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubAI_EnergyPack_Empty</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SubAI_EnergyPack_Empty</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SubAI_EnergyPack_Full>10</SubAI_EnergyPack_Full>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>SubAI_SubpersonaShell</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

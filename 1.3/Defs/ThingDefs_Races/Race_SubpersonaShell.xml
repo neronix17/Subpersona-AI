@@ -2,7 +2,7 @@
 <Defs>
 
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
-		<defName>O21_AI_SubpersonaShell</defName>
+		<defName>SubAI_SubpersonaShell</defName>
 		<label>Subpersona Shell</label>
 		<description>A simple spacer design of humanoid robot, Shells are commonly used among spacer colonies to reinforce workers cheaply, using program cartridges they can be enabled to complete specific sets of complex tasks beyond their basic built-in programming.</description>
 		<alienRace>
@@ -90,6 +90,7 @@
 			</thoughtSettings>
 			<raceRestriction>
 				<foodList>
+					<li>SubAI_EnergyPack_Full</li>
 					<li MayRequire="neronix17.outerrim.galaxies">O21_OR_DroidBattery_Full</li>
 				</foodList>
 				<onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
@@ -174,8 +175,8 @@
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>2500</lifeExpectancy>
 			<leatherDef>Leather_Human</leatherDef>
-			<bloodDef>O21_AI_ShellOil</bloodDef>
-			<body>O21_AI_HumanoidShell</body>
+			<bloodDef>SubAI_ShellOil</bloodDef>
+			<body>SubAI_HumanoidShell</body>
 			<useMeatFrom>Human</useMeatFrom>
 			<foodType>OmnivoreHuman</foodType>
 			<needsRest>false</needsRest>
@@ -212,19 +213,19 @@
 				</points>
 			</ageGenerationCurve>
 			<hediffGiverSets>
-				<li>O21_AI_SubpersonaAI</li>
+				<li>SubAI_SubpersonaAI</li>
 				<li>O21_ConstructHumanoid</li>
 			</hediffGiverSets>
 		</race>
 		<recipes>
 			<!-- Important Utility -->
-			<li>O21_AI_ShutDown</li>
+			<li>SubAI_ShutDown</li>
 		</recipes>
 		<comps>
 			<li Class="O21Toolbox.SlotLoadable.CompProperties_SlotLoadable">
 				<compClass>SubpersonaAI.Comp_ProgramCartridgeSlot</compClass>
 				<slots>
-					<li>O21_AI_ProgramCartridgeSlot</li>
+					<li>SubAI_ProgramCartridgeSlot</li>
 				</slots>
 			</li>
 		</comps>

@@ -2,7 +2,7 @@
 <Defs>
 
 	<RecipeDef>
-		<defName>O21_AI_ShutDown</defName>
+		<defName>SubAI_ShutDown</defName>
 		<label>shut down and disassemble</label>
 		<description>Shuts down a shell and disassembles for materials.</description>
 		<workerClass>O21Toolbox.ArtificialPawn.Recipe_Disassemble</workerClass>

@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="SubAI_ProgramCartridgeBase">
-		<defName>O21_AI_ProgramScience</defName>
+		<defName>SubAI_ProgramScience</defName>
 		<label>program cartridge: science</label>
 		<description>Cartridge designed for use in subpersona shells, contains a program which allows the shell to perform science related actions.</description>
 		<graphicData>
@@ -13,7 +13,7 @@
 				<skills>
 					<li>Intellectual</li>
 				</skills>
-				<trait>O21_AI_ShellScience</trait>
+				<trait>SubAI_ShellScience</trait>
 			</li>
 		</modExtensions>
 	</ThingDef>

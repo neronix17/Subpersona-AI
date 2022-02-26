@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<TraitDef Name="O21_AI_ShellTraitBase" Abstract="True">
+	<TraitDef Name="SubAI_ShellTraitBase" Abstract="True">
 		<modExtensions>
 			<li Class="SubpersonaAI.DefModExt_ShellTrait"></li>
 		</modExtensions>
 	</TraitDef>
 
-	<TraitDef ParentName="O21_AI_ShellTraitBase">
-		<defName>O21_AI_ShellStandard</defName>
+	<TraitDef ParentName="SubAI_ShellTraitBase">
+		<defName>SubAI_ShellStandard</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
@@ -31,8 +31,8 @@
 		</disabledWorkTags>
 	</TraitDef>
 
-	<TraitDef ParentName="O21_AI_ShellTraitBase">
-		<defName>O21_AI_ShellMilitary</defName>
+	<TraitDef ParentName="SubAI_ShellTraitBase">
+		<defName>SubAI_ShellMilitary</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
@@ -54,8 +54,8 @@
 		</disabledWorkTags>
 	</TraitDef>
 
-	<TraitDef ParentName="O21_AI_ShellTraitBase">
-		<defName>O21_AI_ShellMedical</defName>
+	<TraitDef ParentName="SubAI_ShellTraitBase">
+		<defName>SubAI_ShellMedical</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
@@ -77,8 +77,8 @@
 		</disabledWorkTags>
 	</TraitDef>
 
-	<TraitDef ParentName="O21_AI_ShellTraitBase">
-		<defName>O21_AI_ShellFarming</defName>
+	<TraitDef ParentName="SubAI_ShellTraitBase">
+		<defName>SubAI_ShellFarming</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
@@ -100,8 +100,8 @@
 		</disabledWorkTags>
 	</TraitDef>
 
-	<TraitDef ParentName="O21_AI_ShellTraitBase">
-		<defName>O21_AI_ShellScience</defName>
+	<TraitDef ParentName="SubAI_ShellTraitBase">
+		<defName>SubAI_ShellScience</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
@@ -123,8 +123,8 @@
 		</disabledWorkTags>
 	</TraitDef>
 
-	<TraitDef ParentName="O21_AI_ShellTraitBase">
-		<defName>O21_AI_ShellConstruction</defName>
+	<TraitDef ParentName="SubAI_ShellTraitBase">
+		<defName>SubAI_ShellConstruction</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
@@ -146,8 +146,8 @@
 		</disabledWorkTags>
 	</TraitDef>
 
-	<TraitDef ParentName="O21_AI_ShellTraitBase">
-		<defName>O21_AI_ShellMining</defName>
+	<TraitDef ParentName="SubAI_ShellTraitBase">
+		<defName>SubAI_ShellMining</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
@@ -169,8 +169,8 @@
 		</disabledWorkTags>
 	</TraitDef>
 
-	<TraitDef ParentName="O21_AI_ShellTraitBase">
-		<defName>O21_AI_ShellCooking</defName>
+	<TraitDef ParentName="SubAI_ShellTraitBase">
+		<defName>SubAI_ShellCooking</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
@@ -192,8 +192,8 @@
 		</disabledWorkTags>
 	</TraitDef>
 
-	<TraitDef ParentName="O21_AI_ShellTraitBase">
-		<defName>O21_AI_ShellCrafting</defName>
+	<TraitDef ParentName="SubAI_ShellTraitBase">
+		<defName>SubAI_ShellCrafting</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
@@ -215,8 +215,8 @@
 		</disabledWorkTags>
 	</TraitDef>
 
-	<TraitDef ParentName="O21_AI_ShellTraitBase">
-		<defName>O21_AI_ShellRanching</defName>
+	<TraitDef ParentName="SubAI_ShellTraitBase">
+		<defName>SubAI_ShellRanching</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
 			<li>

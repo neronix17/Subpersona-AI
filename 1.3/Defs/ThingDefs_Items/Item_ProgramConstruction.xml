@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="SubAI_ProgramCartridgeBase">
-		<defName>O21_AI_ProgramConstruction</defName>
+		<defName>SubAI_ProgramConstruction</defName>
 		<label>program cartridge: construction</label>
 		<description>Cartridge designed for use in subpersona shells, contains a program which allows the shell to perform construction related actions.</description>
 		<graphicData>
@@ -13,7 +13,7 @@
 				<skills>
 					<li>Construction</li>
 				</skills>
-				<trait>O21_AI_ShellConstruction</trait>
+				<trait>SubAI_ShellConstruction</trait>
 			</li>
 		</modExtensions>
 	</ThingDef>

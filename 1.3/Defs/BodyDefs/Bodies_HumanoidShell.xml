@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<BodyDef>
-		<defName>O21_AI_HumanoidShell</defName>
+		<defName>SubAI_HumanoidShell</defName>
 		<label>humanoid shell</label>
 		<corePart>
-			<def>O21_AI_ShellThorax</def>
+			<def>SubAI_ShellThorax</def>
 			<height>Middle</height>
 			<depth>Outside</depth>
             <groups>
@@ -12,7 +12,7 @@
             </groups>
 			<parts>
 				<li>
-					<def>O21_AI_ShellNeck</def>
+					<def>SubAI_ShellNeck</def>
 					<coverage>0.10</coverage>
 					<height>Top</height>
                     <groups>
@@ -29,7 +29,7 @@
 							</groups>
 							<parts>
 								<li>
-									<def>O21_AI_ShellBrain</def>
+									<def>SubAI_ShellBrain</def>
 									<coverage>0.10</coverage>
 									<depth>Inside</depth>
                                     <groups>
@@ -38,7 +38,7 @@
                                     </groups>
 								</li>
 								<li>
-									<def>O21_AI_ShellSightSensor</def>
+									<def>SubAI_ShellSightSensor</def>
 									<customLabel>left sight sensor</customLabel>
 									<coverage>0.13</coverage>
                                     <groups>
@@ -47,7 +47,7 @@
                                     </groups>
 								</li>
 								<li>
-									<def>O21_AI_ShellSightSensor</def>
+									<def>SubAI_ShellSightSensor</def>
 									<customLabel>right sight sensor</customLabel>
 									<coverage>0.13</coverage>
                                     <groups>
@@ -56,7 +56,7 @@
                                     </groups>
 								</li>
 								<li>
-									<def>O21_AI_ShellSoundSensor</def>
+									<def>SubAI_ShellSoundSensor</def>
 									<customLabel>left sound sensor</customLabel>
 									<coverage>0.10</coverage>
                                     <groups>
@@ -65,7 +65,7 @@
                                     </groups>
 								</li>
 								<li>
-									<def>O21_AI_ShellSoundSensor</def>
+									<def>SubAI_ShellSoundSensor</def>
 									<customLabel>right sound sensor</customLabel>
 									<coverage>0.10</coverage>
                                     <groups>
@@ -74,7 +74,7 @@
                                     </groups>
 								</li>
 								<li>
-									<def>O21_AI_ShellSmellSensor</def>
+									<def>SubAI_ShellSmellSensor</def>
 									<coverage>0.10</coverage>
                                     <groups>
                                         <li>Teeth</li>
@@ -86,23 +86,23 @@
 					</parts>
 				</li>
 				<li>
-					<def>O21_AI_ShellShoulder</def>
+					<def>SubAI_ShellShoulder</def>
 					<customLabel>left shoulder</customLabel>
 					<coverage>0.17</coverage>
 					<parts>
 						<li>
-							<def>O21_AI_ShellArm</def>
+							<def>SubAI_ShellArm</def>
 							<customLabel>left arm</customLabel>
 							<coverage>0.85</coverage>
 							<parts>
 								<li>
-									<def>O21_AI_ShellHand</def>
+									<def>SubAI_ShellHand</def>
 									<customLabel>left hand</customLabel>
 									<coverage>0.2</coverage>
 									<height>Bottom</height>
 									<parts>
 										<li>
-											<def>O21_AI_ShellFinger</def>
+											<def>SubAI_ShellFinger</def>
 											<customLabel>left pinky</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
@@ -111,7 +111,7 @@
 											</groups>
 										</li>
 										<li>
-											<def>O21_AI_ShellFinger</def>
+											<def>SubAI_ShellFinger</def>
 											<customLabel>left middle finger</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
@@ -121,7 +121,7 @@
 											</groups>
 										</li>
 										<li>
-											<def>O21_AI_ShellFinger</def>
+											<def>SubAI_ShellFinger</def>
 											<customLabel>left index finger</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
@@ -130,7 +130,7 @@
 											</groups>
 										</li>
 										<li>
-											<def>O21_AI_ShellFinger</def>
+											<def>SubAI_ShellFinger</def>
 											<customLabel>left thumb</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
@@ -145,23 +145,23 @@
 					</parts>
 				</li>
 				<li>
-					<def>O21_AI_ShellShoulder</def>
+					<def>SubAI_ShellShoulder</def>
 					<customLabel>right shell shoulder</customLabel>
 					<coverage>0.17</coverage>
 					<parts>
 						<li>
-							<def>O21_AI_ShellArm</def>
+							<def>SubAI_ShellArm</def>
 							<customLabel>right arm</customLabel>
 							<coverage>0.85</coverage>
 							<parts>
 								<li>
-									<def>O21_AI_ShellHand</def>
+									<def>SubAI_ShellHand</def>
 									<customLabel>right hand</customLabel>
 									<coverage>0.2</coverage>
 									<height>Bottom</height>
 									<parts>
 										<li>
-											<def>O21_AI_ShellFinger</def>
+											<def>SubAI_ShellFinger</def>
 											<customLabel>right pinky</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
@@ -170,7 +170,7 @@
 											</groups>
 										</li>
 										<li>
-											<def>O21_AI_ShellFinger</def>
+											<def>SubAI_ShellFinger</def>
 											<customLabel>right middle finger</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
@@ -180,7 +180,7 @@
 											</groups>
 										</li>
 										<li>
-											<def>O21_AI_ShellFinger</def>
+											<def>SubAI_ShellFinger</def>
 											<customLabel>right index finger</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
@@ -189,7 +189,7 @@
 											</groups>
 										</li>
 										<li>
-											<def>O21_AI_ShellFinger</def>
+											<def>SubAI_ShellFinger</def>
 											<customLabel>right thumb</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
@@ -212,7 +212,7 @@
 					</groups>
 				</li>
 				<li>
-					<def>O21_AI_ShellLeg</def>
+					<def>SubAI_ShellLeg</def>
 					<customLabel>left leg</customLabel>
 					<coverage>0.2</coverage>
 					<height>Bottom</height>
@@ -221,7 +221,7 @@
                     </groups>
 					<parts>
 						<li>
-							<def>O21_AI_ShellFoot</def>
+							<def>SubAI_ShellFoot</def>
 							<customLabel>left foot</customLabel>
 							<coverage>0.2</coverage>          
                             <groups>
@@ -231,7 +231,7 @@
 					</parts>
 				</li>
 				<li>
-					<def>O21_AI_ShellLeg</def>
+					<def>SubAI_ShellLeg</def>
 					<customLabel>right leg</customLabel>
 					<coverage>0.2</coverage>
 					<height>Bottom</height>
@@ -240,7 +240,7 @@
                     </groups>
 					<parts>
 						<li>
-							<def>O21_AI_ShellFoot</def>
+							<def>SubAI_ShellFoot</def>
 							<customLabel>right foot</customLabel>
 							<coverage>0.2</coverage>
                             <groups>
@@ -250,17 +250,17 @@
 					</parts>
 				</li>
 				<li>
-					<def>O21_AI_ShellReactor</def>
+					<def>SubAI_ShellReactor</def>
 					<coverage>0.06</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>O21_AI_ShellFluidReprocessor</def>
+					<def>SubAI_ShellFluidReprocessor</def>
 					<coverage>0.04</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>O21_AI_ShellFluidReprocessor</def>
+					<def>SubAI_ShellFluidReprocessor</def>
 					<coverage>0.04</coverage>
 					<depth>Inside</depth>
 				</li>

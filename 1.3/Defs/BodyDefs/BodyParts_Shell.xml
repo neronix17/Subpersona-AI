@@ -2,7 +2,7 @@
 <Defs>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellNeck</defName>
+		<defName>SubAI_ShellNeck</defName>
 		<label>neck</label>
 		<hitPoints>30</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -18,7 +18,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellBrain</defName>
+		<defName>SubAI_ShellBrain</defName>
 		<label>shell brain</label>
 		<hitPoints>10</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -32,7 +32,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellReactor</defName>
+		<defName>SubAI_ShellReactor</defName>
 		<label>reactor</label>
 		<hitPoints>20</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -46,7 +46,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellFluidReprocessor</defName>
+		<defName>SubAI_ShellFluidReprocessor</defName>
 		<label>fluid reprocessor</label>
 		<hitPoints>15</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -60,7 +60,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellSightSensor</defName>
+		<defName>SubAI_ShellSightSensor</defName>
 		<label>visual sensor</label>
 		<hitPoints>10</hitPoints>
 		<frostbiteVulnerability>2</frostbiteVulnerability>
@@ -76,7 +76,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellSoundSensor</defName>
+		<defName>SubAI_ShellSoundSensor</defName>
 		<label>sound sensor</label>
 		<hitPoints>10</hitPoints>
 		<frostbiteVulnerability>2</frostbiteVulnerability>
@@ -91,7 +91,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellSmellSensor</defName>
+		<defName>SubAI_ShellSmellSensor</defName>
 		<label>chemical analyzer</label>
 		<hitPoints>10</hitPoints>
 		<frostbiteVulnerability>2</frostbiteVulnerability>
@@ -103,7 +103,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellShoulder</defName>
+		<defName>SubAI_ShellShoulder</defName>
 		<label>shoulder</label>
 		<hitPoints>25</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -117,7 +117,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellArm</defName>
+		<defName>SubAI_ShellArm</defName>
 		<label>arm</label>
 		<hitPoints>30</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -131,7 +131,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellHand</defName>
+		<defName>SubAI_ShellHand</defName>
 		<label>hand</label>
 		<hitPoints>20</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -145,7 +145,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellFinger</defName>
+		<defName>SubAI_ShellFinger</defName>
 		<label>finger</label>
 		<hitPoints>7</hitPoints>
 		<frostbiteVulnerability>10</frostbiteVulnerability>
@@ -161,7 +161,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellLeg</defName>
+		<defName>SubAI_ShellLeg</defName>
 		<label>leg</label>
 		<hitPoints>30</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -175,7 +175,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellFoot</defName>
+		<defName>SubAI_ShellFoot</defName>
 		<label>foot</label>
 		<hitPoints>20</hitPoints>
 		<frostbiteVulnerability>2</frostbiteVulnerability>
@@ -190,7 +190,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>O21_AI_ShellThorax</defName>
+		<defName>SubAI_ShellThorax</defName>
 		<label>thorax</label>
 		<hitPoints>40</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>

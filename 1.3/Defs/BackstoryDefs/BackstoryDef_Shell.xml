@@ -2,7 +2,7 @@
 <Defs>
 
 	<AlienRace.BackstoryDef>
-		<defName>O21_AI_SubpersonaShell_Child</defName>
+		<defName>SubAI_SubpersonaShell_Child</defName>
 		<title>Subpersona Shell</title>
 		<titleShort>Subpersona Shell</titleShort>
 		<baseDescription>Simple robotic shell.</baseDescription>
@@ -14,7 +14,7 @@
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef>
-		<defName>O21_AI_SubpersonaShell_Adult</defName>
+		<defName>SubAI_SubpersonaShell_Adult</defName>
 		<title>Subpersona Shell</title>
 		<titleShort>Subpersona Shell</titleShort>
 		<baseDescription>Nothing Special.</baseDescription>
