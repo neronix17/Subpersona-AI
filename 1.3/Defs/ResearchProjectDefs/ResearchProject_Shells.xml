@@ -3,9 +3,9 @@
 
 	<ResearchProjectDef>
 		<defName>SubAI_SubpersonaShell</defName>
-		<label>subpersona shell</label>
+		<label>subpersona shells</label>
 		<description>Create a subpersona AI powered shell, a humanoid robot capable of most jobs when given the right program.</description>
-		<baseCost>4000</baseCost>
+		<baseCost>8000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>Fabrication</li>
@@ -16,8 +16,8 @@
 		</requiredResearchFacilities>
 		<researchViewX>15.00</researchViewX>
 		<researchViewY>2.50</researchViewY>
-		<discoveredLetterTitle>About: Creating Subpersona Shells</discoveredLetterTitle>
-		<discoveredLetterText>Now you have the research done, you have the ability to begin crafting your very own Shell workforce! You can find the recipe on the fabricator which will create the standard shell, these are not capable of anything beyond the simplest tasks without a program cartridge though, which can also be crafted on the fabricator. The quality of the cartridge determines the skill levels provided to the Shell when they equip it.</discoveredLetterText>
+		<discoveredLetterTitle>About: Subpersona Shells</discoveredLetterTitle>
+		<discoveredLetterText>Now you have the research done, you have the ability to begin crafting your very own Shell workforce! You can find the recipe on the shell fabricator which will create the standard shell, these are not capable of anything beyond the simplest tasks without a program cartridge though, which can be crafted on the vanilla fabricator. The quality of the cartridge determines the skill levels provided to the Shell when they equip it.\n\nShells cannot be repaired by hand, instead they are repaired by the shell reconstructor building, they can be placed in dead or alive and will be fully restored in up to 24 hours (less damage to repair, shorter time it takes).\n\nSubpersona Shells require power to continue working, and while the reconstructor can reactivate any "dead" shell in 24 hours, it'd be much easier to just keep them powered. You can craft and recharge energy packs on the fabricator and machining bench, or you can build wireless energy pylons of varying strength which will recharge all pawns in range periodically.</discoveredLetterText>
 	</ResearchProjectDef>
 
 </Defs>

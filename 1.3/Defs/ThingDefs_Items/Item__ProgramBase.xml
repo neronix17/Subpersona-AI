@@ -18,6 +18,23 @@
 			<Flammability>0.3</Flammability>
 			<DeteriorationRate>1.0</DeteriorationRate>
 		</statBases>
+		<costList>
+			<Steel>20</Steel>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<effectWorking>Repair</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<workAmount>800</workAmount>
+			<workSkill>Crafting</workSkill>
+			<recipeUsers>
+				<li>TableMachining</li>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>SubAI_SubpersonaShell</researchPrerequisite>
+		</recipeMaker>
 		<comps>
 			<li Class="O21Toolbox.SlotLoadable.CompProperties_SlottedBonus"></li>
 			<li>
