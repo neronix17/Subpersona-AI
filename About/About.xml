@@ -3,9 +3,32 @@
 	<name>[O21] Subpersona Shells</name>
 	<author>Neronix17</author>
 	<packageId>Neronix17.SubpersonaShells</packageId>
+	<description>Adds Subpersona AI Shells, robots designed to fit a number of purposes but with limited capacity for what they can process, using program cartridges to dictate what they are capable of.</description>
 	<url></url>
 	<supportedVersions>
 		<li>1.3</li>
 	</supportedVersions>
-	<description>Adds Subpersona AI Shells, robots designed to fit a number of purposes but with limited capacity for what they can process, using program cartridges to dictate what they are capable of.</description>
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework</downloadUrl>
+		</li>
+		<li>
+			<packageId>neronix17.toolbox</packageId>
+			<displayName>[O21] Toolbox</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>neronix17.toolbox</li>
+	</loadAfter>
 </ModMetaData>
