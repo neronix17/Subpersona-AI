@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>SubAI_NameMakerShell</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[BD_Letter][BD_Number][BD_Dash][BD_Letter][BD_Number]</li>
+				<li>name->[BD_Number][BD_Letter][BD_Dash][BD_Number][BD_Letter]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>BD_Letter</keyword>
+					<path>Shells/Droids/NamePartLetter</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>BD_Number</keyword>
+					<path>Shells/Droids/NamePartNumber</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>BD_Dash</keyword>
+					<path>Shells/Droids/NamePartDash</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+</Defs>

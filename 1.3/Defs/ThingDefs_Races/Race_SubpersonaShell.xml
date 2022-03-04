@@ -94,8 +94,6 @@
 					<li MayRequire="neronix17.outerrim.galaxies">O21_OR_DroidBattery_Full</li>
 				</foodList>
 				<onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
-				<apparelList />
-				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 			</raceRestriction>
 			<compatibility>
 				<isFlesh>False</isFlesh>
@@ -165,7 +163,7 @@
 		</statBases>
 		<race>
 			<hasGenders>False</hasGenders>
-			<nameGenerator>O21_OR_NamerBattleDroid</nameGenerator>
+			<nameGenerator>SubAI_NameMakerShell</nameGenerator>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>1</baseHealthScale>
 			<fleshType>Artificial</fleshType>
