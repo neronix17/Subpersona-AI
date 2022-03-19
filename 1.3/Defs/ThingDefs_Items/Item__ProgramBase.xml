@@ -8,7 +8,7 @@
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>10</stackLimit>
+		<stackLimit>1</stackLimit>
 		<healthAffectsPrice>true</healthAffectsPrice>
 		<intricate>true</intricate>
 		<statBases>
