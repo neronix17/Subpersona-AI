@@ -251,6 +251,36 @@
 				<needOutdoors>False</needOutdoors>
 				<needBeauty>False</needBeauty>
 			</li>
+			<li Class="O21Toolbox.PawnExt.DefModExt_DiseaseImmunity">
+				<hediffs>
+					<li>WoundInfection</li>
+					<li>BadBack</li>
+					<li>Frail</li>
+					<li>Cataract</li>
+					<li>HearingLoss</li>
+					<li>Blindness</li>
+					<li>Dementia</li>
+					<li>Alzheimers</li>
+					<li>Asthma</li>
+					<li>HeartArteryBlockage</li>
+					<li>Carcinoma</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>TraumaSavant</li>
+					<li>ChemicalDamageModerate</li>
+					<li>ChemicalDamageSevere</li>
+					<li>Cirrhosis</li>
+					<li>ResurrectionPsychosis</li>
+					<li>Scaria</li>
+					<li>WaterInEyes</li>
+				</hediffs>
+			</li>
 			<li Class="O21Toolbox.HarmonyPatches.DefModExt_SpaceCapable" />
 		</modExtensions>
 		<butcherProducts>
